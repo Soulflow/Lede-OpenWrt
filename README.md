@@ -1,7 +1,16 @@
 
-<h1>個人業餘Routers升級用</h1>
+<h1>Use for personal Routers' Update</h1>
+
+<h3>精簡版内容摘要：</h3>
+<p>Kernel Version: Latest</p>
+Argonne Theme</br>
+Pass Wall</br>
+DDNS</br>
+Wifi Schedule</br>
+DNS HTTPS PROXY</br>
+EQoS</br>
+Turbo ACC Center</br>
 
 
-Credits && License:</br>
-[MIT](https://github.com/P3TERX/Actions-OpenWrt/blob/main/LICENSE) © [**P3TERX**](https://p3terx.com)
-[中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
+<p>Credits & License:</br>
+https://github.com/P3TERX/Actions-OpenWrt
