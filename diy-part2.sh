@@ -22,3 +22,5 @@ sed -i 's/time.ustc.edu.cn/time1.google.com/g' package/base-files/files/bin/conf
 sed -i 's/cn.pool.ntp.org/time.apple.com/g' package/base-files/files/bin/config_generate
 sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
 sed -i 's/luci-theme-bootstrap/luci-theme-argonne/g' ./feeds/luci/collections/luci/Makefile
+rm -rf package/lean/luci-theme-bootstrap
+sed -i 's/zh-cn/zh-tw/g' feeds/luci/luci.mk
