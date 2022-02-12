@@ -10,7 +10,7 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
-sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.6.5/g' package/base-files/files/bin/config_generate
 sed -i 's/OpenWrt/SZ-MB/g' package/base-files/files/bin/config_generate
 sed -i 's/ntp.aliyun.com/time.windows.com/g' package/base-files/files/bin/config_generate
 sed -i 's/time1.cloud.tencent.com/time.cloudflare.com/g' package/base-files/files/bin/config_generate
@@ -19,4 +19,4 @@ sed -i 's/cn.pool.ntp.org/time.apple.com/g' package/base-files/files/bin/config_
 sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
 sed -i 's/luci-theme-bootstrap/luci-theme-argonne/g' ./feeds/luci/collections/luci/Makefile
 rm -rf package/lean/luci-theme-bootstrap
-sed -i 's/zh-cn/zh-tw/g' feeds/luci/luci.mk
+#sed -i 's/zh-cn/zh-tw/g' feeds/luci/luci.mk
