@@ -13,5 +13,4 @@ Turbo ACC Center</br>
 
 
 <h5>Credits & License:</h5>
-https://github.com/P3TERX/Actions-OpenWrt
-https://github.com/coolsnowwolf/lede
+https://github.com/P3TERX/Actions-OpenWrt & https://github.com/coolsnowwolf/lede
