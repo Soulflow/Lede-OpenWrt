@@ -12,5 +12,5 @@ EQoS</br>
 Turbo ACC Center</br>
 
 
-<p>Credits & License:</br>
+<h5>Credits & License:</h5>
 https://github.com/P3TERX/Actions-OpenWrt
