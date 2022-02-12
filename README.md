@@ -1,7 +1,7 @@
 
-<h1>Use for personal Routers' Update</h1>
+<h1>Self-Build OpenWrt for Home Routers</h1>
 
-<h3>精簡版内容摘要：</h3>
+<h3>Description</h3>
 <p>Kernel Version: Latest</p>
 Argonne Theme</br>
 Pass Wall</br>
