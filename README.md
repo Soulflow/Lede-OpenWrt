@@ -1,5 +1,5 @@
 
-私人業餘更新個人Routers使用
+私人業餘更新個人Routers用
 
 ## License
 [MIT](https://github.com/P3TERX/Actions-OpenWrt/blob/main/LICENSE) © [**P3TERX**](https://p3terx.com)
