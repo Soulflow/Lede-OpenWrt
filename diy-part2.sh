@@ -17,6 +17,8 @@ sed -i 's/time1.cloud.tencent.com/time.cloudflare.com/g' package/base-files/file
 sed -i 's/time.ustc.edu.cn/time1.google.com/g' package/base-files/files/bin/config_generate
 sed -i 's/cn.pool.ntp.org/time.apple.com/g' package/base-files/files/bin/config_generate
 sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
-sed -i 's/luci-theme-bootstrap/luci-theme-argonne/g' ./feeds/luci/collections/luci/Makefile
+cd lede/package/lean
+rm -rf luci-theme-argon
 rm -rf package/lean/luci-theme-bootstrap
-#sed -i 's/zh-cn/zh-tw/g' feeds/luci/luci.mk
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
