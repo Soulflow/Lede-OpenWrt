@@ -10,7 +10,9 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
-rm -rf lede/package/lean/luci-theme-bootstrap
+sed -i 's/zh_cn/en/g' package/lean/default-settings/files/zzz-default-settings
+sed -i 's/Shanghai/Taipei/g' package/lean/default-settings/files/zzz-default-settings
+sed -i 's/'zh-cn'/'en'/g' feeds/luci/luci.mk
 sed -i 's/192.168.1.1/192.168.6.5/g' package/base-files/files/bin/config_generate
 sed -i 's/OpenWrt/SZ-MB/g' package/base-files/files/bin/config_generate
 sed -i 's/ntp.aliyun.com/time.windows.com/g' package/base-files/files/bin/config_generate
