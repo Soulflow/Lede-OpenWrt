@@ -10,6 +10,8 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
+cd lede/package/lean
+rm -rf luci-theme-argon
 sed -i 's/192.168.1.1/192.168.6.5/g' package/base-files/files/bin/config_generate
 sed -i 's/OpenWrt/SZ-MB/g' package/base-files/files/bin/config_generate
 sed -i 's/ntp.aliyun.com/time.windows.com/g' package/base-files/files/bin/config_generate
