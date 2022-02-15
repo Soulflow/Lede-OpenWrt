@@ -14,7 +14,7 @@ luci-app-ramfree<br>
 luci-app-statistics<br>
 luci-app-turboacc<br>
 luci-app-webadmin<br>
-luci-app-wifischedule
+luci-app-wifischedule<br>
 Naiveproxy<br>
 Xray
 
