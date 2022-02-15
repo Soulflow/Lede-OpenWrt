@@ -2,7 +2,7 @@
 <h1>Self-Build OpenWrt for Home Routers</h1>
 
 <h3>Description</h3>
-<p>Kernel Version: Latest 5.10.100</p>
+Kernel Version: Latest 5.10.100<br>
 luci-app-accesscontrol<br>
 luci-app-argonne-config<br>
 luci-app-autoreboot<br>
