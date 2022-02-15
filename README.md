@@ -4,7 +4,7 @@
 <h3>Description</h3>
 <p>Kernel Version: Latest 5.10.100</p>
 Argonne Theme</br>
-Pass Wall</br>
+Pass Wall /w NaiveProxy</br>
 DDNS</br>
 Wifi Schedule</br>
 DNS HTTPS PROXY</br>
