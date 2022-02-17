@@ -3,20 +3,16 @@
 
 <h3>Description</h3>
 Kernel Version: Latest 5.10.100<br>
-luci-app-accesscontrol<br>
 luci-app-argonne-config<br>
-luci-app-autoreboot<br>
-luci-app-eqos<br>
-luci-app-firewall<br>
-luci-app-https-dns-proxy<br>
+luci-app-aria2<br>
+luci-app-firewall /w Naiveproxy<br>
+luci-app-hd-idle<br>
 luci-app-passwall<br>
+luci-app-samba<br>
 luci-app-ramfree<br>
-luci-app-statistics<br>
 luci-app-turboacc<br>
-luci-app-webadmin<br>
-luci-app-wifischedule<br>
-Naiveproxy<br>
-Xray
+luci-app-zerotier<br>
+
 
 
 <h5>Credits & License:</h5>
