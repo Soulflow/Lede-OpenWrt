@@ -9,6 +9,8 @@
 # File name: diy-part2.sh
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
+cd openwrt/package
+git clone https://github.com/jerrykuku/luci-theme-argon.git
 
 sed -i 's/zh_cn/auto/g' package/lean/default-settings/files/zzz-default-settings
 sed -i 's/Shanghai/Taipei/g' package/lean/default-settings/files/zzz-default-settings
@@ -20,4 +22,4 @@ sed -i 's/time1.cloud.tencent.com/time.cloudflare.com/g' package/base-files/file
 sed -i 's/time.ustc.edu.cn/time1.google.com/g' package/base-files/files/bin/config_generate
 sed -i 's/cn.pool.ntp.org/time.apple.com/g' package/base-files/files/bin/config_generate
 sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
-sed -i 's/luci-theme-bootstrap/luci-theme-argonne/g' ./feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
