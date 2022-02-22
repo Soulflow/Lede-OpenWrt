@@ -11,8 +11,8 @@ luci-app-passwall<br>
 luci-app-samba<br>
 luci-app-ramfree<br>
 luci-app-turboacc<br>
-luci-app-zerotier<br>
-tailscale
+tailscale<br>
+
 
 
 <h5>Credits & License:</h5>
