@@ -1,5 +1,5 @@
 
-<h1>Self-Build OpenWrt for Home Routers</h1>
+<h1>Self-Build OpenWrt for Routers CR660x</h1>
 
 <h3>Description</h3>
 Kernel Version: Latest 5.10.100<br>
