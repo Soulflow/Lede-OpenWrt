@@ -11,11 +11,9 @@
 #
 
 
-#sed -i 's/CONFIG_NET_VENDOR_RALINK=y/# CONFIG_NET_VENDOR_RALINK is not set/g' target/linux/ramips/mt7621/config-5.10
-#sed -i 's/CONFIG_NET_RALINK_OFFLOAD=y/# CONFIG_NET_RALINK_OFFLOAD is not set/g' target/linux/ramips/mt7621/config-5.10
-sed -i 's/zh_cn/auto/g' package/default-settings/files/zzz-default-settings
-sed -i 's/Shanghai/Taipei/g' package/default-settings/files/zzz-default-settings
-sed -i 's/ +@LUCI_LANG_zh_Hans/ /g' feeds/luci/modules/luci-base/Makefile
+sed -i 's/zh_cn/auto/g' package/lean/default-settings/files/zzz-default-settings
+sed -i 's/Shanghai/Taipei/g' package/lean/default-settings/files/zzz-default-settings
+sed -i 's/zh_cn/auto/g' feeds/luci/modules/luci-base/root/etc/uci-defaults/luci-base
 sed -i 's/192.168.1.1/192.168.6.5/g' package/base-files/files/bin/config_generate
 sed -i 's/OpenWrt/Github_SZ-MB/g' package/base-files/files/bin/config_generate
 sed -i 's/ntp.aliyun.com/time.windows.com/g' package/base-files/files/bin/config_generate
