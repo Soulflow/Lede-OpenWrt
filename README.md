@@ -13,6 +13,7 @@ luci-app-samba<br>
 luci-app-ramfree<br>
 luci-app-turboacc<br>
 luci-app-zerotier<br>
+tailscale
 
 
 <h5>Credits & License:</h5>
