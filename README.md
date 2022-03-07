@@ -2,7 +2,8 @@
 <h1>Self-Build OpenWrt for Routers CR660x</h1>
 
 <h3>Description</h3>
-Kernel Version: Latest 5.10.103<br>
+Kernel Version: 5.10.103<br>
+Firmware Version: Snapshot<br>
 release ram<br>
 web admin<br>
 led configuration<br>
@@ -19,7 +20,8 @@ turbo acc center<br>
 
 <h1>Self-Build OpenWrt for Routers Xunlei TimeCloud v1</h1>
 <h3>Description</h3>
-Kernel Version: Latest 5.10.103<br>
+Kernel Version: 5.10.103<br>
+Firmware Version: Snapshot<br>
 scheduled reboot<br>
 argonne config<br>
 hdd idle<br>
