@@ -17,6 +17,17 @@ tailscale<br>
 eqos<br>
 turbo acc center<br>
 
+<h1>Self-Build OpenWrt for Routers Xunlei TimeCloud v1</h1>
+<h3>Description</h3>
+Kernel Version: Latest 5.10.103<br>
+scheduled reboot<br>
+argonne config<br>
+hdd idle<br>
+aria2 settings<br>
+network shares (samba)<br>
+zerotier<br>
+turbo acc center<br>
+
 
 <h5>Credits & License:</h5>
 https://github.com/P3TERX/Actions-OpenWrt<br>
