@@ -2,18 +2,20 @@
 <h1>Self-Build OpenWrt for Routers CR660x</h1>
 
 <h3>Description</h3>
-Kernel Version: Latest 5.10.100<br>
-luci-app-argonne-config<br>
-luci-app-aria2<br>
-luci-app-https_dns_proxy<br>
-luci-app-easymesh<br>
-luci-app-eqos<br>
-luci-app-passwall /w Naiveproxy<br>
-luci-app-samba<br>
-luci-app-ramfree<br>
-luci-app-turboacc<br>
-luci-app-zerotier<br>
-tailscale
+Kernel Version: Latest 5.10.103<br>
+release ram<br>
+web admin<br>
+led configuration<br>
+scheduled reboot<br>
+argonne config<br>
+pass wall<br>
+internet access schedule control<br>
+wifi schedule<br>
+dns https proxy<br>
+zerotier<br>
+tailscale<br>
+eqos<br>
+turbo acc center<br>
 
 
 <h5>Credits & License:</h5>
