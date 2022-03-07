@@ -30,6 +30,17 @@ network shares (samba)<br>
 zerotier<br>
 turbo acc center<br>
 
+<h1>Self-Build OpenWrt for Routers HC5661</h1>
+<h3>Description</h3>
+Kernel Version: 5.10.103<br>
+Firmware Version: Snapshot<br>
+scheduled reboot<br>
+pass wall<br>
+aria2 settings<br>
+network shares (samba)<br>
+zerotier<br>
+turbo acc center<br>
+
 
 <h5>Credits & License:</h5>
 https://github.com/P3TERX/Actions-OpenWrt<br>
